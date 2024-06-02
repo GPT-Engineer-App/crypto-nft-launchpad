@@ -117,6 +117,92 @@ const Index = () => {
           </Box>
         </Box>
       </SimpleGrid>
+
+      {}
+      <Heading as="h3" size="lg" mb={4}>
+        Hottest Most Transacted Projects
+      </Heading>
+      <SimpleGrid columns={[1, 2, 3]} spacing={8} mb={16}>
+        <Box borderWidth="1px" borderRadius="lg" overflow="hidden">
+          <Image src="https://images.unsplash.com/photo-1606787366850-de6330128bfc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHx0cmFuc2FjdGVkfGVufDB8fHx8MTcxNzMxNTk5Nnww&ixlib=rb-4.0.3&q=80&w=1080" alt="Transacted Project 1" />
+          <Box p={4}>
+            <Text fontWeight="bold">Transacted Project 1</Text>
+            <HStack justifyContent="space-between">
+              <Text>5000 ETH</Text>
+              <Button colorScheme="teal" size="sm">
+                View Details
+              </Button>
+            </HStack>
+          </Box>
+        </Box>
+        <Box borderWidth="1px" borderRadius="lg" overflow="hidden">
+          <Image src="https://images.unsplash.com/photo-1606787366850-de6330128bfc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHx0cmFuc2FjdGVkfGVufDB8fHx8MTcxNzMxNTk5Nnww&ixlib=rb-4.0.3&q=80&w=1080" alt="Transacted Project 2" />
+          <Box p={4}>
+            <Text fontWeight="bold">Transacted Project 2</Text>
+            <HStack justifyContent="space-between">
+              <Text>4500 ETH</Text>
+              <Button colorScheme="teal" size="sm">
+                View Details
+              </Button>
+            </HStack>
+          </Box>
+        </Box>
+        <Box borderWidth="1px" borderRadius="lg" overflow="hidden">
+          <Image src="https://images.unsplash.com/photo-1606787366850-de6330128bfc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHx0cmFuc2FjdGVkfGVufDB8fHx8MTcxNzMxNTk5Nnww&ixlib=rb-4.0.3&q=80&w=1080" alt="Transacted Project 3" />
+          <Box p={4}>
+            <Text fontWeight="bold">Transacted Project 3</Text>
+            <HStack justifyContent="space-between">
+              <Text>4000 ETH</Text>
+              <Button colorScheme="teal" size="sm">
+                View Details
+              </Button>
+            </HStack>
+          </Box>
+        </Box>
+      </SimpleGrid>
+
+      {}
+      <Heading as="h3" size="lg" mb={4}>
+        Most Active on Social Media
+      </Heading>
+      <SimpleGrid columns={[1, 2, 3]} spacing={8}>
+        <Box borderWidth="1px" borderRadius="lg" overflow="hidden">
+          <Image src="https://images.unsplash.com/photo-1517260911058-0fcfd733702f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxzb2NpYWwlMjBtZWRpYXxlbnwwfHx8fDE3MTczMTU5OTh8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Social Media Project 1" />
+          <Box p={4}>
+            <Text fontWeight="bold">Social Media Project 1</Text>
+            <HStack justifyContent="space-between">
+              <Text>100K Followers</Text>
+              <Button colorScheme="teal" size="sm">
+                View Details
+              </Button>
+            </HStack>
+          </Box>
+        </Box>
+        <Box borderWidth="1px" borderRadius="lg" overflow="hidden">
+          <Image src="https://images.unsplash.com/photo-1517260911058-0fcfd733702f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxzb2NpYWwlMjBtZWRpYXxlbnwwfHx8fDE3MTczMTU5OTh8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Social Media Project 2" />
+          <Box p={4}>
+            <Text fontWeight="bold">Social Media Project 2</Text>
+            <HStack justifyContent="space-between">
+              <Text>90K Followers</Text>
+              <Button colorScheme="teal" size="sm">
+                View Details
+              </Button>
+            </HStack>
+          </Box>
+        </Box>
+        <Box borderWidth="1px" borderRadius="lg" overflow="hidden">
+          <Image src="https://images.unsplash.com/photo-1517260911058-0fcfd733702f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxzb2NpYWwlMjBtZWRpYXxlbnwwfHx8fDE3MTczMTU5OTh8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Social Media Project 3" />
+          <Box p={4}>
+            <Text fontWeight="bold">Social Media Project 3</Text>
+            <HStack justifyContent="space-between">
+              <Text>85K Followers</Text>
+              <Button colorScheme="teal" size="sm">
+                View Details
+              </Button>
+            </HStack>
+          </Box>
+        </Box>
+      </SimpleGrid>
     </Container>
   );
 };
